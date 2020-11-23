@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  width: 1200px;
+  height: 700px;
+  grid-template-columns: 200px repeat(2, 1fr);
+  grid-template-rows: 400px repeat(2, 1fr);
+  gap: 1rem;
+  grid-template-areas: 
+  "header header"
+  "navbar navbar"
+  "wrapper wrapper"
+  "footer footer";
+}
+
+.wrapper {
+  display: flex;
+}
