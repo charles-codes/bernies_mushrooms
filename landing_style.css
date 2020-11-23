@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 700px;
+}
+
+#img_1 {
+  float: left;
+  width: 33.33333%;
+  height: 100%;
+}
+
+#img_2 {
+  float: left;
+  width: 33.33333%;
+  height: 100%;
+}
+
+#img_3 {
+  float: left;
+  width: 33.33333%;
+  height: 100%;
+}
+
+.header {
+  z-index: 1;
+  position: absolute;
+  top: -80px;
+  left: 200px;
+}
+
+#logo {
+  width: 900px;
+}
