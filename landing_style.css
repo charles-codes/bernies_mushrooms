@@ -1,36 +1,30 @@
+html, body {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
+  height: 100%;
 }
 
 .container {
   height: 700px;
 }
 
-#img_1 {
+.background_img {
   float: left;
   width: 33.33333%;
   height: 100%;
 }
 
-#img_2 {
-  float: left;
-  width: 33.33333%;
-  height: 100%;
-}
-
-#img_3 {
-  float: left;
-  width: 33.33333%;
-  height: 100%;
-}
-
+/* header positioning and logo sizing */
 .header {
   z-index: 1;
   position: absolute;
   top: -80px;
-  left: 200px;
+  left: 150px;
 }
 
 #logo {
-  width: 900px;
+  width: 980px;
 }
