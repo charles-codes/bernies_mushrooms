@@ -26,5 +26,6 @@ body {
 }
 
 #logo {
-  width: 980px;
+  width: 960px;
+  position: absolute;
 }
