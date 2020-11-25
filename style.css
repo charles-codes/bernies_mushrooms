@@ -97,7 +97,7 @@ li a:hover {
   background-color: black;
 }
 
-/* style for wrapper <div> */
+/* style for wrapper <div> and all child elements*/
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2 1fr);
@@ -133,6 +133,7 @@ li a:hover {
   grid-area: figure1;
   margin: auto;
   border: solid 3px var(--darkblue);
+  border-radius: 0 0 25px 25px;
   text-align: center;
 }
 
@@ -144,6 +145,7 @@ li a:hover {
   grid-area: figure2;
   margin: auto;
   border: solid 3px var(--darkblue);
+  border-radius: 0 0 25px 25px;
   text-align: center;
 }
 
