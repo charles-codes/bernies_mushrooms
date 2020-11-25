@@ -33,6 +33,17 @@ body {
   border-bottom: solid 10px var(--lightpurple);
 }
 
+#mushroom_img {
+  width: 60px;
+  height: 60px;
+  float: right;
+  background-color: var(--lightpurple);
+  border: solid 2px var(--darkblue);
+  border-radius: 25px;
+  padding: 6px;
+  margin: 3px;
+}
+
 .header_text {
   font-family: 'Cedarville Cursive', cursive;
   text-align: right;
