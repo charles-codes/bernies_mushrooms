@@ -1,3 +1,4 @@
+/* color variables */
 :root {
   --lightpurple: #7E7CF9;
   --darkpurple: #1A1878;
@@ -9,6 +10,7 @@
 html, body {
   min-height: 100%;
   min-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -16,17 +18,15 @@ body {
   min-width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-}
-
-.container {
-  width: 100%;
+  box-sizing: border-box;
 }
 
 /* header style including image sizing for logo */
 .header {
   height: 100px;
   border-bottom: solid 12px var(--lightpurple);
-  border-bottom-left-radius: 20px;
+  /* border-bottom-left-radius: 15px; */
+  margin: 0;
 }
 
 .header_text {
@@ -41,15 +41,15 @@ body {
 /* style for the navbar */
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: -10px 0px 0px -10px;
   padding: 0;
   overflow: auto;
   background-color: var(--graypurple);
   position: fixed;
   width: 166px;
-  height: 100px;
+  height: 110px;
   float: left;
-  border-radius: 10px 10px 0px 10px;
+  overflow-y: hidden;
 }
 
 
@@ -58,24 +58,27 @@ li a {
   color: white;
   text-align: left;
   padding: 7px;
-  /* margin: 3px; */
   border-bottom: solid 2px var(--blue);
   background-color: var(--graypurple);
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
+  height: 20px;
 }
 
 #last_item {
   border-bottom: none;
+  height: 33px;
 }
 
 li a:hover {
   background-color: var(--darkblue);
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in;
 }
 
 .active {
-  background-color: firebrick;
+  background-color: black;
 }
 
 /* style for wrapper <div> */
@@ -84,6 +87,24 @@ li a:hover {
 }
 
 /* style for footer <div> */
-.footer {
 
+.footer {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 12px var(--lightpurple);
+  text-align: center;
+  background-color: var(--graypurple);
+  margin-left: -10px;
+}
+
+
+.footer a {
+  text-decoration: none;
+}
+
+.icons {
+  font-size: 26px;
+  color: white;
 }
