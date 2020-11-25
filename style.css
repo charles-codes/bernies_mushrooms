@@ -22,11 +22,10 @@ body {
   box-sizing: border-box;
 }
 
-/* header style including image sizing for logo */
+/* header style including sizing for text logo */
 .header {
   height: 100px;
   border-bottom: solid 12px var(--lightpurple);
-  margin: 0;
 }
 
 .header_text {
@@ -84,7 +83,7 @@ li a:hover {
 
 /* style for wrapper <div> */
 .wrapper {
-
+  display: flex;
 }
 
 /* style for footer <div> */
@@ -98,7 +97,6 @@ li a:hover {
   background-color: var(--graypurple);
   margin-left: -10px;
 }
-
 
 .footer a {
   text-decoration: none;
