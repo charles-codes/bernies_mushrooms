@@ -50,6 +50,7 @@ ul {
   height: 110px;
   float: left;
   overflow-y: hidden;
+  border-right: solid 4px var(--blue);
 }
 
 
