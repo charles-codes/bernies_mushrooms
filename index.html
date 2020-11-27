@@ -7,7 +7,9 @@
     <meta name="description" content="Website presenting a personal collection of Lorenzen-made ceramic mushrooms">
     <meta name="keywords" content="ceramics art mushrooms mycology lorenzen sculpture">
 
+    <!-- title and tab icon link -->
     <title>The Collection</title>
+    <link rel="shortcut icon" href="images/mushrooms.png">
 
     <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -47,12 +49,12 @@
 
     <!-- js script for navbar active class -->
     <script type="text/javascript">
-      // var menu = document.querySelectorAll('.nav_menu li a');
-      // for (var i = menu.length - 1; i >= 0; i--) {
-      //   if (menu[i].href==document.URL) {
-      //     menu[i].setAttribute("class", "active");
-      //   }
-      // };
+      var menu = document.querySelectorAll('.nav_menu li a');
+      for (var i = menu.length - 1; i >= 0; i--) {
+        if (menu[i].href==document.URL) {
+          menu[i].setAttribute("class", "active");
+        }
+      };
     </script>
   </body>
 </html>

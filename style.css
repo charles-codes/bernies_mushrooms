@@ -93,8 +93,10 @@ li a:hover {
   transition-timing-function: ease-in;
 }
 
+/* active class styling */
 .active {
   background-color: black;
+  color: var(--lightpurple);
 }
 
 /* style for wrapper <div> and all child elements*/
