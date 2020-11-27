@@ -151,6 +151,11 @@ li a:hover {
   text-align: center;
 }
 
+/* styling for wrapper container using flex and flex items within */
+.flex_wrapper {
+  display: flex;
+}
+
 /* style for footer <div> */
 .footer {
   height: 40px;
