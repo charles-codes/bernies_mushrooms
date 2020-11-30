@@ -166,6 +166,14 @@ li a:hover {
 
 .flex_item {
   margin: 10px;
+  border: solid 1px var(--blue);
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  background-color: var(--lightpurple);
+
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
 
 .flex_item img {
