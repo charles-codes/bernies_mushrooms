@@ -113,6 +113,7 @@ li a:hover {
   height: 540px;
   position: fixed;
   top: 120px;
+  bottom: 100px;
   overflow: auto;
 }
 
@@ -179,6 +180,11 @@ li a:hover {
 .flex_item img {
   width: 300px;
   height: 400px;
+}
+
+.flex_item:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 
 /* style for footer <div> */
