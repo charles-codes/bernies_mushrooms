@@ -208,14 +208,14 @@ li a:hover {
   color: white;
 }
 
-/* style for image modal */
+/* style for IMAGE MODALS */
 
 /* the modal background */
 .modal {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 20px;
   left: 0;
   top: 0;
   width: 100%;
@@ -229,7 +229,9 @@ li a:hover {
 .modal_content {
   margin: auto;
   display: block;
-  width: 80%;
+  /* width: 80%; */
+  width: 500px;
+  height: 600px;
   max-width: 700px;
 }
 
