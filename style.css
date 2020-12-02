@@ -204,7 +204,7 @@ li a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
-  border-top: solid 10px var(--lightpurple);
+  border-top: solid 6px var(--lightpurple);
   text-align: center;
   background-color: var(--graypurple);
   margin-left: -10px;
