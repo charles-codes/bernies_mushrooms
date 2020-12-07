@@ -15,7 +15,7 @@ html, body {
 body {
   margin: 0;
   height: 100%;
-  background-color: var(--darkpurple);
+  background-color: black;
 }
 
 /* <div> container to fill all page content */
@@ -24,15 +24,19 @@ body {
   width: 100%;
 }
 
-/* style for mushroom images */
+/* style for mushroom book shelf images */
 .background_div {
   float: left;
   width: 33.09%;
   height: 100%;
 }
 
-.background_img {
-  border-bottom: solid 5px var(--darkpurple);
+#shelf_1 {
+  border-bottom-right-radius: 32px;
+}
+
+#shelf_2 {
+  border-bottom-left-radius: 32px;
 }
 
 /* style for middle div which includes text */
@@ -40,8 +44,8 @@ body {
   border-right: solid 5px var(--graypurple);
   border-bottom: solid 5px var(--graypurple);
   border-left: solid 5px var(--graypurple);
-  border-bottom-left-radius: 36px;
-  border-bottom-right-radius: 36px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
   background-color: whitesmoke;
 
   font-family: 'Cedarville Cursive', cursive;
