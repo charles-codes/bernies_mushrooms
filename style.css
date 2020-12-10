@@ -30,7 +30,7 @@ body {
   position: fixed;
   
   left: 0;
-  border-bottom: solid 10px var(--lightpurple);
+  border-bottom: solid 4px var(--blue);
 }
 
 #mushroom_img {
