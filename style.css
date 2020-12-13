@@ -123,6 +123,15 @@ li a:hover {
   overflow: auto;
 }
 
+.wrapper_paragraphs {
+  width: 98%;
+  height: 100%;
+  position: fixed;
+  top: 120px;
+  bottom: 100px;
+  overflow: auto;
+}
+
 .wrapper_header {
   grid-area: header;
   color: var(--darkpurple);
