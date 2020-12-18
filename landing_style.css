@@ -22,35 +22,27 @@ body {
 .container {
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 /* style for mushroom book shelf images */
 .background_div {
   float: left;
-  width: 33.09%;
-  height: 100%;
-}
-
-#shelf_1 {
-  border-bottom-right-radius: 32px;
-}
-
-#shelf_2 {
-  border-bottom-left-radius: 32px;
 }
 
 /* style for middle div which includes text */
 #header {
-  border-right: solid 5px var(--graypurple);
-  border-bottom: solid 5px var(--graypurple);
-  border-left: solid 5px var(--graypurple);
-  border-bottom-left-radius: 32px;
-  border-bottom-right-radius: 32px;
-  background-color: whitesmoke;
-
   font-family: 'Cedarville Cursive', cursive;
-  line-height: 640px;
-  font-size: 46px;
+  font-size: 64px;
   text-align: center;
-  text-decoration: underline var(--lightpurple);
+  color: white;
+  text-shadow: 2px 2px 2px var(--darkpurple);
+
+  border: solid 10px white;
+  box-shadow: 1px 1px 1px var(--darkpurple);
+  padding: 5px;
+
+  position: fixed;
+  top: 25%;
+  left: 25%;
 }
