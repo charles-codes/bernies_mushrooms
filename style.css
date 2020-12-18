@@ -25,19 +25,21 @@ body {
 
 /* header style including sizing for text logo */
 .header {
-  height: 100px;
+  height: 62px;
   width: 100%;
   position: fixed;
-  
+  top: 0;
   left: 0;
   border-bottom: solid 4px var(--blue);
+
+  background-color: var(--lightpurple);
 }
 
 #mushroom_img {
-  width: 60px;
-  height: 60px;
+  width: 34px;
+  height: 34px;
   float: right;
-  background-color: var(--lightpurple);
+  background-color: white;
   border: solid 2px var(--darkblue);
   border-radius: 25px;
   padding: 6px;
@@ -47,7 +49,7 @@ body {
 .header_text {
   font-family: 'Cedarville Cursive', cursive;
   text-align: right;
-  font-size: 56px;
+  font-size: 34px;
   margin: 0px 15px 0px 0px;
   color: var(--darkpurple);
   float: right;
@@ -60,49 +62,40 @@ body {
 }
 
 /* style for the navbar */
+
 ul {
   list-style-type: none;
-  margin: -10px 0px 0px 0px;
+  margin: 0;
   padding: 0;
-  overflow: auto;
-  background-color: var(--graypurple);
-  position: fixed;
-  width: 166px;
-  height: 110px;
+  overflow: hidden;
   float: left;
-  overflow-y: hidden;
-  border-right: solid 4px var(--blue);
 }
 
+li {
+  float: left;
+}
 
 li a {
   display: block;
   color: white;
-  text-align: left;
-  padding: 7px;
-  border-bottom: solid 2px var(--blue);
-  background-color: var(--graypurple);
+  text-align: center;
+  margin: 14px 8px 0px 8px;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  height: 20px;
-}
-
-#last_item {
-  border-bottom: none;
-  height: 33px;
 }
 
 li a:hover {
-  background-color: var(--darkblue);
-  transition-duration: 0.7s;
+  color: var(--darkblue);
+  transition-duration: 0.2s;
   transition-timing-function: ease-in;
 }
 
 /* active class styling */
 .active {
-  background-color: black;
-  color: var(--lightpurple);
+  background-color: white;
+  border: solid 1px var(--blue);
+  border-radius: 5px;
+  padding: 0px 3px;
+  color: var(--darkpurple);
 }
 
 /* style for wrapper <div> and all child elements for about.html and about_owner.html */
