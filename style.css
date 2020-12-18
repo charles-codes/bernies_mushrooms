@@ -236,11 +236,11 @@ li a:hover {
 
 /* style for footer <div> */
 .footer {
-  height: 40px;
+  height: 30px;
   width: 100%;
   position: fixed;
   bottom: 0;
-  border-top: solid 6px var(--lightpurple);
+  border-top: solid 4px var(--lightpurple);
   text-align: center;
   background-color: var(--graypurple);
   margin-left: -10px;
@@ -251,7 +251,7 @@ li a:hover {
 }
 
 .icons {
-  font-size: 26px;
+  font-size: 20px;
   color: white;
 }
 
